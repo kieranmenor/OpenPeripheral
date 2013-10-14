@@ -5,7 +5,7 @@ import net.minecraft.item.ItemStack;
 
 public class MPSUtils {
 	public static boolean isValidHelmet(ItemStack stack) {
-		return MuseItemUtils.itemHasActiveModule(stack, "OpenPeripheral Terminal Module");
+		return MuseItemUtils.itemHasActiveModule(stack, "Terminal Glasses Module");
 	}
 
 }
